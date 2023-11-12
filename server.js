@@ -7,7 +7,7 @@ const gameLogic = require('./game-logic')
 
 const io = new Server(server , {
     cors: {
-      origin: "https://chekerss.netlify.app/"
+      origin: "https://chekerss.netlify.app"
     }
 });
 
